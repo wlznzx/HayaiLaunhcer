@@ -4,7 +4,7 @@
         android:key="pref_category_general"
         android:title="@string/settings_category_general_category">
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="pref_autokeyboard"
             android:title="@string/settings_autokeyboard" />
         <ListPreference

@@ -25,11 +25,13 @@
         android:gravity="center"
         android:horizontalSpacing="@dimen/app_row_horizontal_spacing"
         android:numColumns="@integer/app_grid_columns"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
         android:scrollbars="none"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="@dimen/app_row_vertical_spacing" />
+        android:verticalSpacing="@dimen/app_row_vertical_spacing">
+        <requestFocus />
+        </GridView>
     </LinearLayout>
 
     <LinearLayout
@@ -83,7 +85,7 @@
                 android:textColorHint="@color/text_hint_grey"
                 android:textSize="18sp">
 
-                <requestFocus />
+
             </EditText>
 
             <View
